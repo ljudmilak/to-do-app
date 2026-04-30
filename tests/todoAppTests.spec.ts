@@ -1,6 +1,5 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 import {ToDoPage} from "../poms/pages/ToDoPage";
-import{ToDoFooter} from "../poms/organisms/ToDoFooter";
 
 test('Create to-do item', async ({ page }) => {
   const toDoPage = new ToDoPage(page);
